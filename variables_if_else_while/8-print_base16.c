@@ -7,11 +7,12 @@
  */
 int main(void)
 {
-	 char c;
+	char c;
+	int n;
 
-	for (c = '0'; c < '10'; c++)
+	for (n = 0; n < 10; n++)
 	{
-		putchar(c);
+		putchar((n % 10) + '0');
 	}
 	for (c = 'a'; c <= 'f'; c++)
 	{
